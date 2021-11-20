@@ -26,4 +26,3 @@ else:
     modo_deTransporte = 'en avion'
 
 print('Le suguiero que vaya {}'.format(modo_deTransporte))
-    
