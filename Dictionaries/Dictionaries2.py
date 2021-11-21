@@ -1,6 +1,6 @@
 #Recorremos una lista de contacto
 
-contacts = {
+''contacts = {
     'Anne': {
         'phone': '8872-7764',
         'email': 'anne@example.com'},
@@ -8,6 +8,7 @@ contacts = {
     'Mark': {
         'phone': '8837-4452',
         'email': 'mark@example.com'},
+
     'Sven': {
         'phone': '7762-4324',
         'email': 'sven@example.com'}
@@ -22,4 +23,5 @@ contacts = {
 for contact in contacts:
     print('Información de contacto de {}.'.format(contact))
     print(contacts[contact]['phone'])
-    print(contacts[contact]['email'])
+    print(contacts[contact]['email'])''
+
