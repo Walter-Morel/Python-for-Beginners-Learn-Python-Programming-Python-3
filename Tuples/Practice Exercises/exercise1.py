@@ -5,6 +5,5 @@ airport = [
     ('Aeropuerto de Melilla', 'MLN')
 ]
 
-
 for (name, code_IATA) in airport:
     print('Aeropuerto: {} - Código IATA: {}'.format(name, code_IATA))
